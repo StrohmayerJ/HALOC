@@ -16,11 +16,11 @@ def train(opt):
         device = "cpu"
 
     print("Loading HALOC dataset...")
-    # training data loader
-    subsetTrain0 = data.HALOC(opt.data+"/0.csv",windowSize=opt.ws) # train sequence 1
-    subsetTrain1 = data.HALOC(opt.data+"/1.csv",windowSize=opt.ws) # train sequence 2
-    subsetTrain2 = data.HALOC(opt.data+"/2.csv",windowSize=opt.ws) # train sequence 3
-    subsetTrain3 = data.HALOC(opt.data+"/3.csv",windowSize=opt.ws) # train sequence 4
+    # Training data loader
+    subsetTrain0 = data.HALOC(opt.data+"/0.csv",windowSize=opt.ws) # train sequence 0
+    subsetTrain1 = data.HALOC(opt.data+"/1.csv",windowSize=opt.ws) # train sequence 1
+    subsetTrain2 = data.HALOC(opt.data+"/2.csv",windowSize=opt.ws) # train sequence 2
+    subsetTrain3 = data.HALOC(opt.data+"/3.csv",windowSize=opt.ws) # train sequence 3
     datasetTrain = torch.utils.data.ConcatDataset([subsetTrain0,subsetTrain1,subsetTrain2,subsetTrain3])
     dataloaderTrain = torch.utils.data.DataLoader(datasetTrain,batch_size=opt.bs, shuffle=True,num_workers=opt.workers,drop_last=True)
     
