@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 
 ### Datasets
-Get the HALOC dataset from https://zenodo.org/records/10715595 and put it in the `\data` directory.
+Get the HALOC dataset from https://zenodo.org/records/10715595 and put it in the `/data` directory.
 
 ### Training & Testing 
 Example command for training and testing a dummy ResNet18 model on CSI amplitude features with a window size of 351 WiFi packets (~3.51 seconds):
