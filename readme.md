@@ -23,7 +23,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### Datasets
+### Dataset
 Get the HALOC dataset from https://zenodo.org/records/10715595 and put it in the `/data` directory.
 
 ### Training & Testing 
