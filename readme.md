@@ -4,10 +4,9 @@
 **Strohmayer, J., and Kampel, M.** (2024). “WiFi CSI-based Long-Range Person Localization Using Directional Antennas”, The Second Tiny Papers Track at ICLR 2024, May 2024, Vienna, Austria. https://openreview.net/forum?id=AOJFcEh5Eb
 
 BibTeX:
-```
-@inproceedings{
-strohmayer2024wifi,
-title={WiFi {CSI}-based Long-Range Person Localization Using Directional Antennas},
+```BibTeX
+@inproceedings{strohmayer2024wifi,
+title={WiFi CSI-based Long-Range Person Localization Using Directional Antennas},
 author={Julian Strohmayer and Martin Kampel},
 booktitle={The Second Tiny Papers Track at ICLR 2024},
 year={2024},
