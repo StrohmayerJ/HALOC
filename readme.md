@@ -6,7 +6,7 @@
 BibTeX:
 ```BibTeX
 @inproceedings{strohmayer2024wifi,
-title={WiFi CSI-based Long-Range Person Localization Using Directional Antennas},
+title={WiFi {CSI}-based Long-Range Person Localization Using Directional Antennas},
 author={Julian Strohmayer and Martin Kampel},
 booktitle={The Second Tiny Papers Track at ICLR 2024},
 year={2024},
